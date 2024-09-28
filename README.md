@@ -1,0 +1,6 @@
+- first download python 3+
+- clone the repo using git ; git clone git remote add origin https://github.com/babazara/airspacebackend.git
+- install the dependency : pip install -r requirements.txt
+- then after the installation make migrations using; python manage.py makemigrations
+- then after that migrate to create the database table using ; python manage.py migrate;
+- lastly run the server using; python manage.py runserver
